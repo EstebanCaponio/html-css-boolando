@@ -11,7 +11,7 @@ header {
     padding: 20px 260px;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 header>div {
@@ -42,8 +42,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 20px
-    ;
+    column-gap: 20px;
 }
 
 .scheda {
@@ -52,15 +51,28 @@ header img {
 }
 
 .foto {
-    
     position: relative;
 }
 
-main a{
+.foto-a {
+    opacity: 1;
+}
+
+.foto-b {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.foto-b:hover {
+    opacity: 1.0;
+}
+
+main a {
     color: black;
 }
 
-main a:hover{
+main a:hover {
     color: #ff0000;
 }
 
@@ -73,7 +85,7 @@ main a:hover{
     right: 0px;
 }
 
-.sconto-sostenibilità{
+.sconto-sostenibilità {
     display: flex;
     gap: 5px;
     text-align: center;
@@ -84,47 +96,47 @@ main a:hover{
     bottom: 40px;
 }
 
-.sconto{
+.sconto {
     background-color: #ff0000;
     padding: 5px 10px;
 }
 
-.sostenibilità{
+.sostenibilità {
     background-color: #008000;
     padding: 5px 10px;
 }
 
-main img{
+main img {
     width: 447.5px;
 }
 
-main ul{
-    display:block ;
+main ul {
+    display: block;
     padding-bottom: 50px;
 }
 
-.marca{
+.marca {
     font-size: 12px;
 }
 
-.nome-modello{
+.nome-modello {
     font-size: 15px;
     font-weight: bold;
 }
 
-.prezzo-nuovo{
+.prezzo-nuovo {
     color: #ff0000;
     font-size: 14px;
     font-weight: bold;
 }
 
-.prezzo-vecchio{
+.prezzo-vecchio {
     font-size: 14px;
     text-decoration: line-through;
 }
 
 /********** FOOTER **********/
-footer{
+footer {
     background-color: #1a1a1a;
     padding: 20px 260px;
     border-bottom: 1px solid white;
@@ -136,18 +148,18 @@ footer>div {
     align-items: center;
 }
 
-h2{
+h2 {
     color: white;
     font-size: 20px;
     padding-bottom: 15px;
 }
 
-h3{
+h3 {
     color: white;
     font-size: 15px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
 
-h3+ul{
-    font-size:  25px;
+h3+ul {
+    font-size: 25px;
 }
