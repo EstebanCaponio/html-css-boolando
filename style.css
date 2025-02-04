@@ -38,15 +38,30 @@ header img {
 
 /********** MAIN **********/
 .main-container {
-    padding: 60px 260px;
+    padding: 60px 260px 0px 260px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    column-gap: 20px
+    ;
 }
 
 .scheda {
     display: flex;
     flex-direction: column;
+}
+
+.foto {
+    
+    position: relative;
+}
+
+main a{
+    color: black;
+}
+
+main a:hover{
+    color: #ff0000;
 }
 
 .heart {
@@ -63,38 +78,49 @@ header img {
     gap: 5px;
     text-align: center;
     font-weight: bold;
+    font-size: 12px;
     color: white;
     position: absolute;
     bottom: 40px;
 }
 
 .sconto{
-    background-color: red;
+    background-color: #ff0000;
     padding: 5px 10px;
 }
 
 .sostenibilità{
-    background-color: lime;
+    background-color: #008000;
     padding: 5px 10px;
 }
-/***
-debug
-***/
-.main-container-debug>div {
+
+main img{
     width: 447.5px;
-    height: 700px;
-    background-color: blueviolet;
 }
 
-.foto-debug {
-    flex-basis: 90%;
-    background-color: aqua;
-    position: relative;
+main ul{
+    display:block ;
+    padding-bottom: 50px;
 }
 
-.description-debug {
-    background-color: crimson;
-    flex-basis: 10%;
+.marca{
+    font-size: 12px;
+}
+
+.nome-modello{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.prezzo-nuovo{
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.prezzo-vecchio{
+    font-size: 14px;
+    text-decoration: line-through;
 }
 
 /********** FOOTER **********/
