@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,30 +6,92 @@
 }
 
 /********** HEADER **********/
-header{
+header {
     background-color: #ff6900;
     padding: 20px 260px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
-header>div{
+header>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     gap: 10px;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-header img{
+header img {
     width: 135px;
+}
+
+/********** MAIN **********/
+.main-container {
+    padding: 60px 260px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.scheda {
+    display: flex;
+    flex-direction: column;
+}
+
+.heart {
+    font-size: 30px;
+    padding: 15px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+.sconto-sostenibilità{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+}
+
+.sconto{
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.sostenibilità{
+    background-color: lime;
+    padding: 5px 10px;
+}
+/***
+debug
+***/
+.main-container-debug>div {
+    width: 447.5px;
+    height: 700px;
+    background-color: blueviolet;
+}
+
+.foto-debug {
+    flex-basis: 90%;
+    background-color: aqua;
+    position: relative;
+}
+
+.description-debug {
+    background-color: crimson;
+    flex-basis: 10%;
 }
