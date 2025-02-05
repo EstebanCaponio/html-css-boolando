@@ -8,7 +8,8 @@
 /********** HEADER **********/
 header {
     background-color: #ff6900;
-    padding: 20px 260px;
+    /* padding: 20px 260px; */
+    padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -18,6 +19,8 @@ header>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1390px;
+    margin: 0 auto;
 }
 
 ul {
@@ -38,7 +41,9 @@ header img {
 
 /********** MAIN **********/
 .main-container {
-    padding: 60px 260px 0px 260px;
+    /* padding: 60px 260px 0px 260px; */
+    width: 1390px;
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -140,7 +145,8 @@ main ul {
 /********** FOOTER **********/
 footer {
     background-color: #1a1a1a;
-    padding: 20px 260px;
+    /* padding: 20px 260px; */
+    padding: 20px 0;
     border-bottom: 1px solid white;
 }
 
@@ -148,6 +154,8 @@ footer>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1390px;
+    margin: 0 auto;
 }
 
 h2 {
